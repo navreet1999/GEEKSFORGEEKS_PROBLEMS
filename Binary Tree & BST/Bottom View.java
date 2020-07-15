@@ -33,6 +33,7 @@ class Tree
             if (tmpNode.node.left != null) { 
                 q.add(new QueueObj(tmpNode.node.left, tmpNode.hd - 1)); 
             } 
+         
             if (tmpNode.node.right != null) { 
                 q.add(new QueueObj(tmpNode.node.right, tmpNode.hd + 1)); 
             } 
